@@ -180,7 +180,6 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -1287,16 +1286,33 @@ footer .credits a {
 /* PAGE SHAPE & FRIENDS */
 .shape-header {
   min-height: 450px;
-  background-image: url("../img/shape-head.jpg");
+  background-image: url("../img/sf/shape-head.jpg");
   background-size: contain ;
   background-position: center center;
-  border-bottom: solid 1px #f6d62b;
+  border-bottom: solid 1px #e2d070;
 }
 
 .box-about-shape {
+  border: solid 1px #e2d070;
+  background-color: #232323;
+}
+
+.project-link-title, .fonctio-title, .goldy {
+  color: #E2D070;
+}
+
+.fonctio-title {
+  font-size: 20px;;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+.gold-bord {
   border: solid 1px #f6d62b;
 }
 
-.project-link-title {
-  color: #E2D070;
+.orange-txt {
+  color: #f07c10 !important;
 }
