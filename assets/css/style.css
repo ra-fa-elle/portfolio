@@ -19,7 +19,8 @@ a {
 }
 
 a:hover {
-  color: #0078ff;
+  color: #e2d070;
+  font-weight: bold;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -306,7 +307,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #0078ff;
+  background: #232323;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -1277,10 +1278,6 @@ footer .copyright {
 
 footer .credits {
   margin-bottom: 0;
-}
-
-footer .credits a {
-  color: #fff;
 }
 
 /* PAGE SHAPE & FRIENDS */
